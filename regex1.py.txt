@@ -1,0 +1,21 @@
+# Regex 
+
+# Ex - 1 
+import re
+
+str1 = "Build your carrier. Get full success"
+x = re.findall("success$",str1)
+if x:
+    print("Yes, it's matching")
+else:
+    print("Not matching")
+    
+
+# Ex - 2 
+
+str2 = "Build your carrier. Get full success"
+x1 = re.findall("full$",str2)
+if x1:
+    print("Yes, it's matching")
+else:
+    print("Not matching")

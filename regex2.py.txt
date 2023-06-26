@@ -1,0 +1,31 @@
+# Regex 
+
+# Ex - 1 
+import re
+
+str1 = "Build your carrier. Get full success"
+x = re.findall("ca.*r",str1)
+if x:
+    print("Yes, it's matching")
+else:
+    print("Not matching")
+    
+
+# Ex - 2 
+
+str2 = "Build your carrier. Get full success"
+x1 = re.findall("carri.+r",str2)
+if x1:
+    print("Yes, it's matching")
+else:
+    print("Not matching")
+    
+    
+# Ex - 3 
+
+str3 = "Build your carrier. Get full success"
+x2 = re.findall("carrie.+r",str3)
+if x2:
+    print("Yes, it's matching")
+else:
+    print("Not matching")
